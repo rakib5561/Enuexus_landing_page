@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.nav-logo {
+  color: orangered;
+}
+
+.banner-content h1 span {
+  color: orangered;
+}
+
+.contact-btn {
+  color: white;
+  font-weight: bold;
+  padding: 12px 30px;
+  background-color: orangered;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1.25px;
+}
+
+.about-btn {
+  color: black;
+  font-weight: bold;
+  padding: 12px 30px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid orangered;
+  cursor: pointer;
+  letter-spacing: 1.25px;
+}
+
+.company-desc h1 span {
+  color: orangered;
+}
+
+.read-more-btn {
+  padding: 12px 30px;
+  border-radius: 10px;
+}
