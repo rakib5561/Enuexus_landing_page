@@ -8,7 +8,6 @@
 .header-wrapper {
   width: 100%;
   padding: 20px 0px;
-  background-color: aliceblue;
 }
 
 .container {
@@ -50,20 +49,49 @@
 .nav-list li a:hover {
   color: orangered;
 }
+/* ===========Nav bar End ============ */
 
+.banner-part {
+  background: url("../image/light.jpg");
+  padding: 100px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  width: 45%;
+  padding: 60px 0px;
+}
+.banner-content h1 {
+  font-size: 36px;
+  color: white;
+  padding: 20px 0px;
+  letter-spacing: 2.5px;
+  line-height: 45px;
+}
 .banner-content h1 span {
   color: orangered;
+}
+
+.banner-content p {
+  font-size: 15px;
+  color: white;
+  line-height: 22px;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
 .contact-btn {
   color: white;
   font-weight: bold;
-  padding: 12px 30px;
+  padding: 13px 30px;
   background-color: orangered;
   border-radius: 10px;
   border: none;
   cursor: pointer;
   letter-spacing: 1.25px;
+  transition: 0.1s all ease-in-out;
 }
 
 .about-btn {
@@ -75,6 +103,16 @@
   border: 2px solid orangered;
   cursor: pointer;
   letter-spacing: 1.25px;
+  transition: 0.1s all ease-in-out;
+}
+
+.contact-btn:hover {
+  color: white;
+  background-color: black;
+}
+.about-btn:hover {
+  color: orangered;
+  background-color: black;
 }
 
 .company-desc h1 span {
